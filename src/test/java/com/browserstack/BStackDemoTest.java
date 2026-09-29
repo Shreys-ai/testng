@@ -19,6 +19,7 @@ import org.testng.annotations.Listeners;
 public class BStackDemoTest extends SeleniumTest {
     @Test(groups = {"regression"})
     public void addProductToCart() throws Exception {
+        // dummy change for single-test-file branch
         // navigate to bstackdemo
         driver.get("https://www.bstackdemo.com");
 
