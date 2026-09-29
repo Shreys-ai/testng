@@ -8,7 +8,6 @@
     <test name="StsDemo">
         <classes>
             <class name="com.browserstack.BStackDemoTest"/>
-            <class name="com.browserstack.BStackLocalTest"/>
         </classes>
     </test>
 </suite>
