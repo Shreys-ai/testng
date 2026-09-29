@@ -12,3 +12,5 @@ public class BStackLocalTest extends SeleniumTest {
         Assert.assertTrue(driver.getTitle().contains("BrowserStack Local"));
     }
 }
+
+// dummy change for both-test-files branch
