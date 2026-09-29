@@ -1,0 +1,20 @@
+userName: 
+accessKey: 
+projectName: Default Project Java 4
+buildName: sts-java-relevant-only
+framework: testng
+logDir: log
+testObservability: true
+testReporting: true
+browserstackAutomation: true
+accessibility: false
+platforms:
+  - os: Windows
+    osVersion: "11"
+    browserName: chrome
+    browserVersion: latest
+testOrchestrationOptions:
+  runSmartSelection:
+    enabled: true
+    mode: relevantOnly
+    source: test.json
