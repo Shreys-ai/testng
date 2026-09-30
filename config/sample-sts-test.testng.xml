@@ -2,13 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <!-- STS (Smart Test Selection) suite. Intentionally MULTI-class so prediction relevantOnly can
      return a STRICT SUBSET of the collected classes (assert_prediction_result requires returned < sent).
-     Both classes already exist in the project; the yml drives browserstackLocal=True so the
-     bs-local class resolves. -->
+     Both classes already exist in the project; the yml drives the BrowserStack run for both classes.
+     -->
 <suite name="SmartSelection">
     <test name="StsDemo">
         <classes>
             <class name="com.browserstack.BStackDemoTest"/>
-            <class name="com.browserstack.BStackLocalTest"/>
+            <class name="com.browserstack.BStackClassTest"/>
         </classes>
     </test>
 </suite>
