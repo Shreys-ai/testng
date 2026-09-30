@@ -27,6 +27,7 @@ public class BStackClassTest {
 
     @Test
     public void addProductToCartInClass() throws Exception {
+        // dummy change for both-test-files branch
         // navigate to bstackdemo
         driver.get("https://www.bstackdemo.com");
 
